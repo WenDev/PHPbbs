@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>添加留言</title>
+    <link rel="stylesheet" href="../css/add.css">
+</head>
+<body>
+    <div class="topbar">
+        <a href="../index.php" class="indexbtn">首页</a>
+    </div>
+    <div class="bigbox">
+        <div class="addBox">
+            <form class="addForm" id="addForm" action="../add.php" method="post">
+                <div class="title">添加留言</div>
+                <div class="inputarea">
+                    <input id="title" class="textbox" type="text" placeholder="标题" name="title">
+                    <input id="content" class="content" type="text" placeholder="内容" name="content">
+                    <input id="submitbtn" class="submitbtn" type="submit" value="提交">
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../js/add.js"></script>
+</body>
+</html>
